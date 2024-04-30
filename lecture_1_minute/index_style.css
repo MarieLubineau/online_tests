@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'Muli';
+	src: url('Muli-Regular.ttf') format('truetype');
+}
+
+html{
+	
+	background-color: #fdeca6;
+	display: flex;
+	justify-content: center;
+	
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	
+	width: 90%;
+	border: 10px solid black;
+	border-radius: 30px;
+	background-color: white;
+	font-family:  "Muli";
+	font-size: 10px;
+}
+
+p {
+	font-size: large;
+	font-family:  "Muli";
+	width:80%;
+}
+
+h3 {
+	font-size: xx-large;
+
+}
+h4{
+    font-size:x-large;
+}
+
+td{
+	font-size:medium;
+	text-align: center;
+	vertical-align: center;
+	width:15%;
+}
+tr{
+	font-size:medium;
+	text-align: center;
+	vertical-align: center;
+
+}
+
+table{
+	width: 80%;
+}
+
+th {
+	background-color: #fdeca6;
+	color: black;
+
+  }
+
+button{
+	font-size:large;
+	margin:10%;
+	font-family: Muli;
+	border-radius:20%;
+	background-color: #fdeca6;
+	border-color:black;
+	border: 3px solid black;
+	
+}
+
+label{
+    font-size: medium;
+}
+
+h5{
+	font-size: large;
+}
+
+.liste{
+	display:flex;
+
+	border: 5px solid black;
+	border-radius: 30px;
+	background-color: white;
+	padding:2%;
+	flex-direction: column;
+	
+	align-items: center;
+}
